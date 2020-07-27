@@ -1,0 +1,179 @@
+body{
+	background-color: white;
+}
+.container{
+		width:1170px;
+		margin: auto
+}
+.clearfix{clear:both;}
+.header .slider{
+	background-image: url('dark.jpg');
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	height: 600px;
+}
+.header .slider .intro{text-align: center;  }
+.header .slider .intro h2{
+	text-transform: uppercase;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	margin-top:0px;
+	margin-bottom: 10px; 
+	color: lemonchiffon;
+	padding-top: 225px; 
+	font-size: 50px;
+}
+
+.navbar {
+	background-color:darkslategray;
+	color: white;
+	overflow: hidden;
+}
+.navbar h2{text-transform: uppercase; float:left; padding-left:8px; }
+
+.navbar h2 span{color:mediumseagreen;}
+
+.navbar ul{
+	list-style:none; 
+	padding-left:0px;
+	overflow: hidden;
+	float: right;
+}
+
+.navbar ul li{float:left;padding: 10px;text-transform: capitalize;}
+a{color: white;text-decoration:none;}
+
+a:hover{color:mediumseagreen;}
+.features{
+	overflow:hidden;
+	padding-top: 40px;
+	padding-bottom: 40px; 
+}
+.features .feat{
+	float: left;
+	width: 33.33333%;
+
+}
+.features .feat h3{
+	color: black;
+	text-transform: uppercase;
+}
+ p{color: dimgrey;}
+img{width:300px;height: 450px;}
+.aboutme{
+	background-color: lightgray;
+	overflow: hidden;
+}
+.aboutme .image{
+	float: left;
+	/*width:40%;*/
+}
+/*.aboutme .image img{width:100%}*/
+
+.aboutme .info{
+	float: left;
+	width: 60%;
+	padding-left: 20px;
+	margin-left:20px; 
+}
+h4{text-transform: uppercase;}
+.aboutme .info .hobbies {
+	overflow: hidden;
+	/*margin: 25px;*/
+	
+
+}
+.aboutme .icon img{max-width: 25px; max-height:25px; margin-top: 15px; }
+.aboutme .cont1{ width:50%; float: left;}
+.aboutme .cont2{ width:50%; float: left;}
+.aboutme .cont3{ width:50%; float: left;}
+.aboutme .cont4{ width:50%; float: left;}
+.aboutme .icon{width: 15%; float: left; }
+.aboutme .text{ width: 85%; float: left;/*margin-left: 4px;*/ }
+
+.skills{overflow: hidden;}
+.skills .skill{ width:50%; float: left}
+.skills .skill p{max-width:250px; }
+button a {
+	padding: 2px;
+	 border:1px solid mediumseagreen;
+	background-color: white;
+	color:mediumseagreen;
+   }
+
+h3{text-transform: uppercase;}
+.skills .programs{width: 50%;float: left;}
+.skills .technique div{background-color:gainsboro; height:25px;}
+.skills .technique div span{
+	background-color:mediumseagreen;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	text-align: right;
+	color: white;
+}
+
+
+.resume{
+	background-color: lightgray;
+	overflow: hidden;
+	margin-top: 60px;
+	padding: 20px;
+	text-align: center;
+}
+.resume h3{text-transform:uppercase;text-align: center; }
+.resume button{
+	padding: 5px;
+	border:1px solid mediumseagreen;
+	background-color: white;
+	color:mediumseagreen;
+
+}
+.education{overflow: hidden;margin-top:80px;}
+.education .myeduc{width: 50%;float: left;}
+.education .myeduc p{max-width: 300px;}
+.education .diplomas{width: 50%; float: left;}
+.education .diplomas button{background-color:darkslategray; color: white; border:1px solid darksalmon; }
+
+.experience{overflow: hidden; margin-top:80px; }
+.experience .myexp{width: 50%; float: left;}
+.experience .myexp p{max-width: 300px;}
+.experience .designers{width: 50%; float: left;}
+.experience .designers button{background-color:darkslategray; color: white; border:1px solid darksalmon; }
+
+.finish{
+	overflow: hidden;
+	background-color:lightgray;
+	text-align: center;
+	padding: 40px;
+	margin-top: 60px:  
+}
+
+.portofolio{margin-top: 40px;padding: 10px; overflow: hidden;}
+.portofolio .port{text-align: center;}
+.portofolio .images{  padding:100px; padding-top: 0px; margin-top: 0px; }
+.portofolio .images > div{
+	float: left;
+	width: 33.33333%;
+	margin-top: 20px;margin-bottom: 15px;}
+.portofolio .images img{ max-height:200px;}
+
+
+
+.contact{overflow: hidden; background-color:darkslategray;margin-top: 40px; padding: 40px; }
+.contact .cont{width:50%; float: left; color: white; font-size: 20px;}
+.contact .cont p{max-width: 250px; color: lightgray;}
+.contact .personalinf{width:50%; float: left; color: white; padding-top: 20px; }
+.contact .personalinf >div{
+	margin-bottom: 20px;
+	font-size:20px;
+}
+.contact .personalinf input{background-color: dimgray;}
+.contact .personalinf input[name="email"]{height: 120px; }
+.contact .personalinf button{padding: 20px; background-color: black; color: white;}
+
+.rights {background-color: black; margin:0px; padding: 1px;}
+.rights p{color: white;font-size: 20px; text-transform: uppercase;font-style: italic;}
+.rights span{font-size: 12px;  font-style:normal;}
