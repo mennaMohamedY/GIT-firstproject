@@ -1,6 +1,9 @@
 body{
 	background-color: white;
 }
+h2,h3{
+    font-family: Georgia, serif;
+}
 .container{
 		width:1170px;
 		margin: auto
